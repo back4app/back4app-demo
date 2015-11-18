@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Projects - back{4}app demo</title>
+
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body data-ng-app="app" data-ng-controller="projectsController">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Projects - back{4}app demo</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>Please, select a project</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-right">
+                <button class="btn btn-success" data-ng-click="vc.newProject()">
+                    New project
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr data-ng-repeat="project in vm.projects">
+                            <td><a class="btn btn-link" data-ng-click="vm.selectProject(project.id)">{{project.name}}</a></td>
+                            <td class="text-right">
+                                <button class="btn btn-danger" data-ng-click="vc.deleteProject(project)">
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row" data-ng-show="vm.selectedProject">
+            <div class="col-xs-12">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2>Selected project: {{vm.selectedProject.name}}</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <form class="form-inline">
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control" id="name" data-ng-model="vm.selectedProject.name">
+                                </div>
+                                <button class="btn btn-default" data-ng-click="vc.saveSelectedProject()">Save</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../node_modules/angular/angular.min.js"></script>
+    <script src="./app/app.module.js"></script>
+    <script src="./app/projectRepository.service.js"></script>
+    <script src="./app/projects.service.js"></script>
+    <script src="./app/projects.controller.js"></script>
+</body>
+</html>
