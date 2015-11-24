@@ -83,7 +83,7 @@
                                     .then(function () {
                                         alert('Issue successfully created');
                                         refreshProjects();
-                                        selectProject(vm.selectedProject);
+                                        selectProject(vm.selectedProject.id);
                                     })
                                     .catch(function (error) {
                                         console.error(error);
@@ -103,7 +103,7 @@
                                     .then(function () {
                                         alert('Bug successfully created');
                                         refreshProjects();
-                                        selectProject(vm.selectedProject);
+                                        selectProject(vm.selectedProject.id);
                                     })
                                     .catch(function (error) {
                                         console.error(error);
