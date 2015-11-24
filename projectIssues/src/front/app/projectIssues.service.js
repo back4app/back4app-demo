@@ -92,7 +92,7 @@
                             }
 
                             projectRepository
-                                .readIssues(vm.selectProject.id)
+                                .readIssues(vm.selectedProject.id)
                                 .then(function (issues) {
                                     vm.selectedProject.issues = issues.data.results;
                                 });
@@ -112,7 +112,7 @@
                             }
 
                             projectRepository
-                                .readBugs(vm.selectProject.id)
+                                .readBugs(vm.selectedProject.id)
                                 .then(function (bugs) {
                                     vm.selectedProject.bugs = bugs.data.results;
                                 });

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5150a81f-288a-4741-bbb2-2fa3636d4bc9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectIssues/src/front/app/projectIssues.service.js" afterPath="$PROJECT_DIR$/projectIssues/src/front/app/projectIssues.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projectIssues/src/front/app/projectRepository.service.js" afterPath="$PROJECT_DIR$/projectIssues/src/front/app/projectRepository.service.js" />
     </list>
     <ignored path="back4app-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="projectIssues.service.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projectIssues/src/front/app/projectIssues.service.js">
+      <file leaf-file-name="projectRepository.service.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projectIssues/src/front/app/projectRepository.service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8978723">
-              <caret line="105" column="75" selection-start-line="105" selection-start-column="75" selection-end-line="105" selection-end-column="75" />
+            <state vertical-scroll-proportion="0.5531915">
+              <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projectRepository.service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projectIssues/src/front/app/projectRepository.service.js">
+      <file leaf-file-name="projectIssues.service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectIssues/src/front/app/projectIssues.service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.777778">
-              <caret line="120" column="11" selection-start-line="107" selection-start-column="25" selection-end-line="120" selection-end-column="11" />
+            <state vertical-scroll-proportion="-10.555555">
+              <caret line="94" column="62" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -63,7 +63,6 @@
         <option value="$PROJECT_DIR$/projectIssues/index.html" />
         <option value="$PROJECT_DIR$/projectIssues/src/front/app/app.module.js" />
         <option value="$PROJECT_DIR$/projectIssues/src/front/app/projectIssuesRepository.service.js" />
-        <option value="$PROJECT_DIR$/projectIssues/src/front/app/projectRepository.service.js" />
         <option value="$PROJECT_DIR$/projectIssues/src/front/index.html" />
         <option value="$PROJECT_DIR$/projectIssues/src/front/app/projectIssues.controller.js" />
         <option value="$PROJECT_DIR$/projects/node_modules/angular/package.json" />
@@ -72,6 +71,7 @@
         <option value="$PROJECT_DIR$/projects/src/front/app/projectRepository.service.js" />
         <option value="$PROJECT_DIR$/projects/src/front/app/projects.service.js" />
         <option value="$PROJECT_DIR$/projectIssues/src/front/app/projectIssues.service.js" />
+        <option value="$PROJECT_DIR$/projectIssues/src/front/app/projectRepository.service.js" />
       </list>
     </option>
   </component>
@@ -383,18 +383,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectIssues/src/front/app/projectRepository.service.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.777778">
-          <caret line="120" column="11" selection-start-line="107" selection-start-column="25" selection-end-line="120" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.8148893">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projectIssues/src/front/app/projectIssues.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8978723">
-          <caret line="105" column="75" selection-start-line="105" selection-start-column="75" selection-end-line="105" selection-end-column="75" />
+        <state vertical-scroll-proportion="-10.555555">
+          <caret line="94" column="62" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectIssues/src/front/app/projectRepository.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5531915">
+          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
           <folding />
         </state>
       </provider>

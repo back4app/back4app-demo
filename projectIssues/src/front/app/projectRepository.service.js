@@ -121,10 +121,13 @@
         });
     }
 
-    function readIssues() {
+    function readIssues(projectId) {
         return this.$http({
             method: 'GET',
-            url: 'https://api.back4app.com/entities/Issue/',
+            url: 'https://api.back4app.com/entities/Issue/?query=' +
+            encodeURIComponent(JSON.stringify({
+                project: projectId
+            })),
             headers: {
                 'X-Application-ID': 'test1',
                 'X-Access-Token': 'access_token_1'
@@ -149,10 +152,13 @@
         });
     }
 
-    function readBugs() {
+    function readBugs(projectId) {
         return this.$http({
             method: 'GET',
-            url: 'https://api.back4app.com/entities/Bug/',
+            url: 'https://api.back4app.com/entities/Bug/?query=' +
+            encodeURIComponent(JSON.stringify({
+                project: projectId
+            })),
             headers: {
                 'X-Application-ID': 'test1',
                 'X-Access-Token': 'access_token_1'
