@@ -31,8 +31,8 @@
             method: 'POST',
             url: 'https://api.back4app.com/entities/Project/',
             headers: {
-                'X-Application-ID': 'test1',
-                'X-Access-Token': 'access_token_1'
+                'X-Application-ID': 'test2',
+                'X-Access-Token': 'access_token_2'
             },
             data: JSON.stringify({
                 name: name
@@ -47,8 +47,8 @@
             method: 'GET',
             url: 'https://api.back4app.com/entities/Project/',
             headers: {
-                'X-Application-ID': 'test1',
-                'X-Access-Token': 'access_token_1'
+                'X-Application-ID': 'test2',
+                'X-Access-Token': 'access_token_2'
             }
         });
     }
@@ -58,8 +58,8 @@
             method: 'GET',
             url: 'https://api.back4app.com/entities/Project/' + id + '/',
             headers: {
-                'X-Application-ID': 'test1',
-                'X-Access-Token': 'access_token_1'
+                'X-Application-ID': 'test2',
+                'X-Access-Token': 'access_token_2'
             }
         });
     }
@@ -69,8 +69,8 @@
             method: 'PUT',
             url: 'https://api.back4app.com/entities/Project/' + project.id + '/',
             headers: {
-                'X-Application-ID': 'test1',
-                'X-Access-Token': 'access_token_1'
+                'X-Application-ID': 'test2',
+                'X-Access-Token': 'access_token_2'
             },
             data: JSON.stringify({
                 name: project.name
@@ -85,8 +85,8 @@
             method: 'DELETE',
             url: 'https://api.back4app.com/entities/Project/' + id + '/',
             headers: {
-                'X-Application-ID': 'test1',
-                'X-Access-Token': 'access_token_1'
+                'X-Application-ID': 'test2',
+                'X-Access-Token': 'access_token_2'
             }
         });
     }
