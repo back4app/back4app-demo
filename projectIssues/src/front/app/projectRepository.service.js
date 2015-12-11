@@ -126,7 +126,7 @@
             method: 'GET',
             url: 'https://api.back4app.com/entities/Issue/?query=' +
             encodeURIComponent(JSON.stringify({
-                project: projectId
+                'project.id': projectId,
             })),
             headers: {
                 'X-Application-ID': 'test1',
@@ -157,7 +157,7 @@
             method: 'GET',
             url: 'https://api.back4app.com/entities/Bug/?query=' +
             encodeURIComponent(JSON.stringify({
-                project: projectId
+                'project.id': projectId
             })),
             headers: {
                 'X-Application-ID': 'test1',
